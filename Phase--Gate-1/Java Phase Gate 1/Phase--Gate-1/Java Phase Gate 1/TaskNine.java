@@ -10,12 +10,13 @@ System.out.printf("%d is the reverse of all the numbers",reverseNumbers(number))
 public static int[] reverseNumbers(int [] number){
 
 int []reverse = new int [number.length];
-int num = 0;
-for (int count = number.length-1; count > 0; count--){
-reverse[count] = number[count];
-System.out.println(num);
-}
+int count = number.length-1;
+for (; count < 0; count--){
 
+ for (int counter = 0; counter < number.length; counter++){
+ reverse[counter] = number[count];
+}
+}
 return reverse;
 }
 }
