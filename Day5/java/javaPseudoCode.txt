@@ -1,0 +1,12 @@
+pseudo Cope 
+
+1- prompt a user to enter the number of space he wants to occupy 
+2- display the number of available spaces left
+3- create a new static array 
+4- add 1 to the index of the array of which the user wants to occupy
+5- prompt the user to go to main menu or to quit
+6- prompt the user to remove a space 
+7- add 0 to that index of which the user wants to remove
+8- display removed successfully 
+9- prompt the user to go back to main menu or to quit
+10- disply good bye !!!,     
